@@ -1,4 +1,4 @@
-# Cursos API - FastAPI + SQLAlchemy
+# FastAPI + SQLAlchemy
 
 API REST para gerenciamento de cursos usando FastAPI e SQLAlchemy com PostgreSQL assíncrono.
 
