@@ -44,16 +44,19 @@ Ajuste o usuário, senha, host, porta e nome do banco conforme sua configuraçã
 ### Inicie o PostgreSQL
 
 **macOS (Homebrew):**
+
 ```bash
 brew services start postgresql@14
 ```
 
 **Linux:**
+
 ```bash
 sudo systemctl start postgresql
 ```
 
 **Docker:**
+
 ```bash
 docker run --name postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
 ```
@@ -139,14 +142,17 @@ secao04/
 ## ⚠️ Troubleshooting
 
 ### Erro: "Connect call failed"
+
 PostgreSQL não está rodando. Inicie o serviço conforme as instruções acima.
 
 ### Erro: "greenlet not found"
+
 ```bash
 pip install greenlet
 ```
 
 ### Erro: "pydantic_settings not found"
+
 ```bash
 pip install pydantic-settings
 ```
